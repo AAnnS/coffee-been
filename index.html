@@ -11,7 +11,7 @@
     <div class="wrapper">
         <!-- header section 1 -->
         <div class="nav">
-            <h1><a href="#">COFFEE BEAN ONLINE</a></h1>
+            <h1><a href="#">COFFEE BEAN</a></h1>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#marchandise">Merchandise</a></li>
@@ -177,19 +177,19 @@
         </div>
         <form action="https://kredo.jp" method="get">
             <div class="form-group">
-                 <label for="name">Full Name</label>
-                 <input type="text" name="name" id="name" placeholder="Last Name First Name">
+                 <label for="full-name">Full Name</label>
+                 <input type="text" name="full-name" id="full-name" placeholder="Last Name First Name">
+
                  <label for="email">Email Address</label>
+                 <input type="email" name="email" id="email" placeholder="mail@mail.com">
 
-                 <input type="text" name="email" id="email" placeholder="mail@mail.com">
-                 <label for="number">Phone Number</label>
-
-                 <input type="text" name="number" id="number" placeholder="(+63)912345678">
+                 <label for="phone">Phone Number</label>
+                 <input type="tel" name="phone" id="phone" placeholder="(+63)912345678">
                  
                  <p>Reservation Detalls</p>
 
-                 <label for="gest">Number of Guest</label>
-                 <select name="gest" id="gest">
+                 <label for="guest-num">Number Of Guest</label>
+                 <select name="guest-num" id="guest-num">
                      <option value="1person">1</option>
                      <option value="2person">2</option>
                      <option value="3person">3</option>
@@ -198,15 +198,15 @@
                  </select>
 
                 
-                 <label for="date">Reservation Date</label>
-                 <input type="date" name="date" id="date">
+                 <label for="res-date">Reservation Date</label>
+                 <input type="date" name="res-date" id="res-date">
                  
                  <p>Reservation Time</p>
               <div class="res-time">
-                 <input type="radio" name="time" value="morning" id="morning">
+                 <input type="radio" name="time" value="morning" id="am">
                  <label for="am">Morning</label>
 
-                 <input type="radio" name="time" value="afternoon" id="afternoon">
+                 <input type="radio" name="time" value="afternoon" id="pm">
                  <label for="pm">Afternoon</label>
 
                  <input type="radio" name="time" value="night" id="night">
@@ -220,63 +220,102 @@
                 <h3>payment</h3>
                 <p>payment accepted cards</p>
 
-                <label for="name-card">Full name</label>
-                <input type="text" name="name-card" id="name-card" placeholder="Full Name" requiredmaxlength="5" maxlength="20">
+                <label for="name-card">full name</label>
+                <input type="text" name="name-card" id="name-card" placeholder="John Doe">
 
                 <label for="cc-numr">Credit Card Number</label>
-                <input type="text" name="cc-numr" id="cc-num" placeholder="12356789">
+                <input type="number" name="cc-numr" id="cc-num" placeholder="123567890">
 
                 <div class="res-agree">
                     <input type="checkbox" name="agree" value="agree" id="agree">
                     <label for="agree">I agree in the terms and conditions.</label>
                 </div>
+
                 <input type="submit" name="submit" id="submit" value="send">
             </div>
         </form>
   </div>
+
+  <!--  footer-1 section 9  -->
   <div class="footer">
       <div class="footer-content">
           <div class="footer-widgets">
               <h3>OPENING HOURS</h3>
-              <table>Day <span>.......</span>Availability</table>
-              <table>Monday <span>.......</span>Availability</table>
-              <table>Tuesday <span>.......</span>Availability</table>
-              <table>Wednesday <span>.......</span>Availability</table>
-              <table>Thusday <span>.......</span>Availability</table>
-              <table>Friday <span>.......</span>Availability</table>
-              <table>Saay <span>.......</span>Availability</table>
-              <table>Day <span>.......</span>Availability</table>
+              <table>
+                  <tr>
+                       <th>Day</th>
+                       <th>..........</th>
+                       <th>Availability</th>
+                  </tr>
+                  <tr>
+                        <td>Monday</td> 
+                        <td>..........</td>
+                        <td>Closed</td> 
+                  </tr>
+                    <tr>
+                        <td>Tuesday</td> 
+                        <td>..........</td> 
+                        <td>09:00-22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td> 
+                        <td>..........</td>
+                        <td>Closed</td> 
+                    </tr>
+                    <tr>
+                        <td>Thusday</td>  
+                        <td>..........</td>
+                        <td>09:00-22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td> 
+                        <td>..........</td>
+                        <td>09:00-22:00</td> 
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>  
+                        <td>..........</td> 
+                        <td>09:00-22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>  
+                        <td>..........</td> 
+                        <td>09:00-22:00</td> 
+                    </tr>
+              </table>
           </div>
           <div class="footer-widgets">
             <h3>LATEST POST</h3>
-            <h4>Expand Your Mind,Change Everything</h4>
-            <p>14022017</p>
+            <h4>Expand Your Mind, Change Everything</h4>
+            <p>14.02.2022</p>
+
             <h4>Places To Get Lost</h4>
-            <p>14022017</p>
+            <p>14.02.2022</p>
+
             <h4>Lewis Howes</h4>
-            <p>14022017</p>
-            <h4>Elevate Your</h4>
-            <p>14022017</p>
-            <h4>Expectation</h4>
-            <p>14022017</p>
+            <p>14.02.2022</p>
+
+            <h4>Elevate Your Expectation</h4>
+            <p>14.02.2022</p>
           </div>
-          <div class="footer-widgets"></div>
+          <div class="footer-widgets">
             <h3>CONTACT US</h3>
             <p>info@coffeebean.com</p>
             <p>1-444-123-4559</p> 
-            <p>Raymond Boulevard 224,New York</p>
-            <h3>THE LAST STANDARD POST</h3>
-            <form action="https://kredo.jp" method="get">
-                <input type="text" class="text">
-                <button class="submit" name="submit" value="send">SEACH</button>
-                <input type="submit" name="submit" value="send">
-            </form>
+            <p>Raymond Boulevard 224, New York</p>
 
+            <h3>THE LAST STANDARD POST</h3>
+            <form action="#" class="footer-form">
+                <input type="text" name="search" id="search">
+                <input type="submit" id="search-btn" value="search">
+            </form>
+           </div>
           <div class="footer-widgets">
             <h3>OTHER LOCATIONS</h3>
-            <h4>Coffee Bean Phillipines</h4>
+            <h4>Coffee Bean Philippines</h4>
             <p>1234 IT Park</p>
             <p>Cebu City</p>
+
             <h4>Coffee Bean Tokyo</h4>
             <p>1234 Business Park</p>
             <p>Tokyo Japan</p>
@@ -296,7 +335,7 @@
           <a href="#"><img src="assets/images/icon-tw.png" alt="twitter icon"></a>
       </div>
       <div class="social-widgets">
-          <p>&copy;2021 | kredo it abroad</p>
+          <p>&copy;2022 | Ann it abroad</p>
       </div>
   </div>
   <a href="#top" class="top">TOP</a>
